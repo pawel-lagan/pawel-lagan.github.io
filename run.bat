@@ -1,0 +1,1 @@
+jbake -s -b src docs
