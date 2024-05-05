@@ -1,27 +1,31 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" class="dark">
-	<head th:replace="header.thyme::head"/>
-	<body>
-	<div id="wrap">
-		<div th:replace="menu.thyme::menu"/>
-		<div class="container">
-			<div class="page-header">
-				<h1>Blog</h1>
-			</div>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" class="dark bg-zinc-800 text-zinc-400 kanit-regular">
+<head th:replace="header.thyme::head" />
 
-			<div th:each="post : ${published_posts}">
-				<a th:href='${post.uri}' href='href'><h1 th:text='${post.title}'>title</h1></a>
-				<p th:text='${#dates.format(post.date,"dd MMMM yyyy")}'>date</p>
-				<p th:utext='${post.body}'>body</p>
-			</div>
+<body>
+    <div id="wrap">
+        <div th:replace="menu.thyme::menu" />
+        <div class="container">
+            <div class="page-header">
+                <h1>Blog</h1>
+            </div>
 
-			<hr />
+            <div th:each="post : ${published_posts}">
+                <a th:href='${post.uri}' href='href'>
+                    <h1 th:text='${post.title}'>title</h1>
+                </a>
+                <p th:text='${#dates.format(post.date,"dd MMMM yyyy")}'>date</p>
+                <p th:utext='${post.body}'>body</p>
+            </div>
 
-			<p>Older posts are available in the <a th:href='${content.rootpath+config.archive_file}' href='href'>archive</a>.</p>
-		</div>
-	</div>
+            <hr />
 
-	<div th:replace="footer.thyme::footer"></div>
-    </body>
+            <p>Older posts are available in the <a th:href='${content.rootpath+config.archive_file}' href='href'>archive</a>.</p>
+        </div>
+    </div>
+
+    <div th:replace="footer.thyme::footer"></div>
+</body>
+
 </html>
