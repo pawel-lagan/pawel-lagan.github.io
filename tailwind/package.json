@@ -1,0 +1,15 @@
+{
+    "name": "static-tailwind-css",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:watch": "tailwindcss build -i ./main.css -o ./../src/assets/css/index.css --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.4.3"
+    }
+}

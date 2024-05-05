@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.oliste</groupId>
+  <artifactId>oliste-blog</artifactId>
+  <packaging>pom</packaging>
+  <version>999-SNAPSHOT</version>
+
+  <properties>
+    <maven_build_timestamp>${maven.build.timestamp}</maven_build_timestamp>
+    <version.org.jbake>2.7.0-rc.6</version.org.jbake>
+  </properties>
+
+  <build>
+      <plugins>
+        <plugin>
+          <groupId>org.jbake</groupId>
+          <artifactId>jbake-maven-plugin</artifactId>
+          <version>${version.org.jbake}</version>
+          <configuration>
+              <inputDirectory>${project.basedir}/src</inputDirectory>
+              <outputDirectory>${project.basedir}/doc</outputDirectory>
+          </configuration>
+          <executions>
+              <execution>
+                  <id>default-generate</id>
+                  <phase>generate-resources</phase>
+                  <goals>
+                      <goal>generate</goal>
+                  </goals>
+              </execution>
+          </executions>
+        </plugin>
+      </plugins>
+  </build>
+</project>
