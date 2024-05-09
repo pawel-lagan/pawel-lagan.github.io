@@ -22,7 +22,7 @@
           <version>${version.org.jbake}</version>
           <configuration>
               <inputDirectory>${project.basedir}/src</inputDirectory>
-              <outputDirectory>${project.basedir}/doc</outputDirectory>
+              <outputDirectory>${project.basedir}/docs</outputDirectory>
           </configuration>
           <executions>
               <execution>

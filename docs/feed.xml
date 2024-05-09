@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>http://jbake.org</link>
-    <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://blog.oliste.net/</link>
+    <atom:link href="https://blog.oliste.net//feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>Sun, 5 May 2024 22:29:55 +0200</pubDate>
-    <lastBuildDate>Sun, 5 May 2024 22:29:55 +0200</lastBuildDate>
+    <pubDate>Thu, 9 May 2024 23:53:17 +0200</pubDate>
+    <lastBuildDate>Thu, 9 May 2024 23:53:17 +0200</lastBuildDate>
 
     <item>
       <title>Fourth Post</title>
-      <link>http://jbake.org/blog/2013/fourth-post.html</link>
+      <link>https://blog.oliste.net//blog/2013/fourth-post.html</link>
       <pubDate>Thu, 17 Oct 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2013/fourth-post.html</guid>
       <description>&amp;lt;div class=&amp;quot;imageblock&amp;quot;&amp;gt;
@@ -43,7 +43,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 &amp;lt;/div&amp;gt;</description>	  
     </item><item>
       <title>Third Post</title>
-      <link>http://jbake.org/blog/2013/third-post.html</link>
+      <link>https://blog.oliste.net//blog/2013/third-post.html</link>
       <pubDate>Thu, 26 Sep 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2013/third-post.html</guid>
       <description>&amp;lt;div class=&amp;quot;paragraph&amp;quot;&amp;gt;
@@ -70,7 +70,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 &amp;lt;/div&amp;gt;</description>	  
     </item><item>
       <title>Second Post</title>
-      <link>http://jbake.org/blog/2013/second-post.html</link>
+      <link>https://blog.oliste.net//blog/2013/second-post.html</link>
       <pubDate>Sun, 25 Aug 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2013/second-post.html</guid>
       <description>&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.&amp;lt;/p&amp;gt;
@@ -88,7 +88,7 @@ libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.&amp;lt;/p&amp;g
 </description>	  
     </item><item>
       <title>First Post</title>
-      <link>http://jbake.org/blog/2013/first-post.html</link>
+      <link>https://blog.oliste.net//blog/2013/first-post.html</link>
       <pubDate>Wed, 24 Jul 2013 00:00:00 +0200</pubDate>
       <guid isPermaLink="false">blog/2013/first-post.html</guid>
       <description>

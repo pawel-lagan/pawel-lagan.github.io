@@ -8,10 +8,19 @@
         <div th:replace="menu.thyme::menu" />
         <div class="container">
             <div class="page-header">
-                <h1>Blog Archive</h1>
+                <h1>Projects</h1>
             </div>
 
-            <th:block th:with="total_posts = *{#lists.size(published_posts)}">
+            <ul>
+                <th:block th:each="anypage: ${published_content}">
+                    <th:block th:if="*{anypage.type == 'project'}" th:with="project = *{anypage}">    
+                        <li><a th:href="*{content.rootpath + project.uri}" th:text="*{project.title}"></a></li>        
+                    </th:block>
+                </th:block>
+                
+            </ul>
+
+            <!-- <th:block th:with="total_posts = *{#lists.size(published_posts)}">
                 <th:block th:if="*{total_posts != 0}" th:with="first_post = *{posts[0]}">
                     <h3 th:text="*{#dates.format(first_post.date,'MMMM yyyy')}">June 2014</h3>
 
@@ -34,7 +43,7 @@
                         </th:block>
                     </th:block>
                 </th:block>
-            </th:block>
+            </th:block> -->
 
         </div>
     </div>
