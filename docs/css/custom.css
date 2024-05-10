@@ -7,6 +7,26 @@
 }
 #main-menu a:hover:after { transform: scaleX(1); }
 
+#footer a {
+    padding-left: 10px;
+}
+
+#footer a svg {
+    transform: scale(1.5);
+}
+
+#footer a:hover {
+    color: rgb(55 113 200);
+}
+
+#footer svg:hover {
+    fill: rgb(55 113 200);
+}
+
+#footer path:hover {
+    fill: rgb(55 113 200);
+}
+
 /* #logo * {
     outline: 1px solid red;
 } */

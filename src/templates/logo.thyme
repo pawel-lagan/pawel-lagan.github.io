@@ -1,7 +1,7 @@
-<div id="logo" class="grid-rows-3 grid-flow-col">
-  <div id="row-1">
+<div id="logo" class="grid-rows-3 grid-flow-col place-content-center">
+  <div id="row-1" class="py-10">
     <div class="software-arch flex gap-2">
-      <div class="flex-none w-20"></div>
+      <div class="flex-1"></div>
       <svg
       width="10.93457"
       height="38.778572"
@@ -32,12 +32,14 @@
             style="fill:none;stroke:#000000;stroke-width:0.365;stroke-dasharray:none"
             d="M 68.122049,24.907777 V 35.139725"
             id="path5" /></g></g></svg>
-        <h3 class="text-black kanit-bold text-4xl">Software architecture</h3>
+        <h3 class="text-black kanit-bold text-4xl -translate-y-2">Software architecture</h3>
+        <div class="w-96"></div>
+        <div class="flex-1"></div>
       </div>
   </div>
   <div id="row-2"> 
-    <div class="logo flex gap-8">
-      <div class="flex-none w-10"></div>
+    <div class="logo flex gap-24">
+      <div class="flex-1"></div>
       <svg
         width="123.7718"
         height="171.91113"
@@ -172,8 +174,8 @@
               id="rect5794-8-7"
               style="fill:#cacfd6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.034312" /></g></g></svg>
         <div class="blog-name">
-          <h3 class="kanit-bold text-7xl">OLISTE</h3>
-          <svg
+          <h3 class="kanit-bold text-7xl">OLISTE</h3><h3 class="kanit-bold text-7xl pl-48">
+          <svg style="display: inline;"
        width="41.017818"
        height="41.017761"
        viewBox="0 0 10.852631 10.852616"
@@ -194,7 +196,7 @@
            cx="155.35735"
            cy="72.665535"
            r="5.4263096" /></g></svg>
-          <h3 class="kanit-bold text-7xl">blog</h3>
+          blog</h3>
         </div>
         <div class="clean-code flex gap-2">
           <svg
@@ -223,9 +225,12 @@
          id="path8" /></g></g></svg>
           <h3 class="text-black kanit-bold text-3xl rotate-90 -translate-x-36">Clean code</h3>
         </div>
+        <div class="flex-1"></div>
     </div>
 
-    <div class="java flex">
+    <div class="java flex gap-2 py-10">
+      <div class="flex-1"></div>
+      <div class="w-20"></div>
       <svg
        width="17.444153"
        height="76.703827"
@@ -268,15 +273,16 @@
              height="1.7905908"
              x="152.73457"
              y="91.031235" /></g></g></svg>
-      <h3 class="text-black kanit-bold text-5xl">Java</h3>
+      <h3 class="text-black kanit-bold text-5xl -translate-y-2">Java</h3>
+      <div class="flex-1"></div>
     </div>
     
 
 
   </div>
   <div id="row-3">
-    <div class="cloud flex">
-      <div class="flex-none w-20"></div>
+    <div class="cloud flex gap-2 -translate-y-20">
+      <div class="flex-1"></div>
       <svg
        width="13.947632"
        height="34.843018"
@@ -303,7 +309,10 @@
              height="1.7905908"
              x="69.651787"
              y="105.68562" /></g></g></svg>
-        <h3 class="text-black kanit-bold text-3xl">Cloud</h3>
+        <h3 class="text-black kanit-bold text-3xl -translate-y-2">Cloud</h3>
+      <div class="w-96"></div>
+      <div class="w-64"></div>
+      <div class="flex-1"></div>
     </div>
   </div>
 </div>
