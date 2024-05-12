@@ -4,47 +4,26 @@
 <head th:replace="header.thyme::head" />
 
 <body>
-    <div id="wrap">
-        <div th:replace="menu.thyme::menu" />
-        <div class="container">
-            <div class="page-header">
-                <h1>Projects</h1>
-            </div>
+    <div th:replace="menu.thyme::menu" />
+    <div class="ol-container">
+        <h1>Projects</h1>           
 
-            <ul>
-                <th:block th:each="anypage: ${published_content}">
-                    <th:block th:if="*{anypage.type == 'project'}" th:with="project = *{anypage}">    
-                        <li><a th:href="*{content.rootpath + project.uri}" th:text="*{project.title}"></a></li>        
-                    </th:block>
+        <div class="grid grid-cols-1 grid-flow-row gap-8">
+            <th:block th:each="anypage: ${published_content}">
+                <th:block th:if="*{anypage.type == 'project'}" th:with="project = *{anypage}">    
+                    <div class="py-4">
+                        <a th:href='${project.uri}' href='href'>
+                        <h3 class="text-xl" th:text='${project.title}'>title</h3>                    
+                        <p class="text-zinc-600 text-xs" th:text='${#dates.format(project.date,"dd MMMM yyyy")}'>date</p>
+                        
+                        <img class="py-4" th:if='${project.short_img}' th:src="${project.short_img}"/>
+                        <p th:utext='${project.short}'>short description</p>
+                        </a>                                        
+                    </div>
+
                 </th:block>
-                
-            </ul>
-
-            <!-- <th:block th:with="total_posts = *{#lists.size(published_posts)}">
-                <th:block th:if="*{total_posts != 0}" th:with="first_post = *{posts[0]}">
-                    <h3 th:text="*{#dates.format(first_post.date,'MMMM yyyy')}">June 2014</h3>
-
-                    <h4>
-                        <span class="font-weight-bold" th:text="*{#dates.format(first_post.date,'dd')}" /> -
-                        <a th:href="*{content.rootpath + first_post.uri}" th:text="*{first_post.title}" href="">Post Title</a>
-                    </h4>
-
-                    <th:block th:if="*{total_posts &gt; 1}" th:each="i : *{#numbers.sequence( 1, total_posts - 1)}">
-                        <th:block th:with="previous_post = *{posts[i - 1]}, current_post = *{posts[i]}">
-                            <th:block th:if="*{#dates.format(previous_post.date,'MMMM yyyy')} != *{#dates.format(current_post.date,'MMMM yyyy')}">
-                                <p></p>
-                                <h3 th:text="*{#dates.format(current_post.date,'MMMM yyyy')}">July 2014</h3>
-                            </th:block>
-
-                            <h4>
-                                <span class="font-weight-bold" th:text="*{#dates.format(current_post.date,'dd')}" /> -
-                                <a th:href="*{content.rootpath + current_post.uri}" th:text="*{current_post.title}" href="">Post Title</a>
-                            </h4>
-                        </th:block>
-                    </th:block>
-                </th:block>
-            </th:block> -->
-
+            </th:block>
+            
         </div>
     </div>
 

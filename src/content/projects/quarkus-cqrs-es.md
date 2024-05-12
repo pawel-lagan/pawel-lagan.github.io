@@ -1,4 +1,4 @@
-title=Timeintervals4j
+title=Quarkus CQRS and Event Store
 date=2013-07-24
 type=project
 tags=project

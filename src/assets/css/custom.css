@@ -27,6 +27,19 @@
     fill: rgb(55 113 200);
 }
 
+.ol-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.ol-container h1 {
+    border-bottom: solid 1px black;    
+}
+
+.ol-container h2 {
+    border-bottom: solid 1px black;
+}
+
 /* #logo * {
     outline: 1px solid red;
 } */

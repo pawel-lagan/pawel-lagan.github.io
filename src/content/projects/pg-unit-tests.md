@@ -1,4 +1,4 @@
-title=Timeintervals4j
+title=PostgresSQL Unit Tests - PGSQL Library
 date=2013-07-24
 type=project
 tags=project

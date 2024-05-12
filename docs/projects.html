@@ -20,8 +20,7 @@
 </head>
 
 <body>
-    <div id="wrap">
-        <div>
+    <div>
 
     <ul id="main-menu" class="flex flex-row justify-end gap-x-12 mt-2">
         <li><a href="/">Home</a></li>
@@ -31,57 +30,63 @@
     </ul>
 
     </div>
-        <div class="container">
-            <div class="page-header">
-                <h1>Projects</h1>
-            </div>
+    <div class="ol-container">
+        <h1>Projects</h1>           
 
-            <ul>
+        <div class="grid grid-cols-1 grid-flow-row gap-8">
+            
                 
+            
+                
+            
+                
+            
+                
+            
+                
+            
                     
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
+                    <div class="py-4">
+                        <a href='projects/timeintervals4j.html'>
+                        <h3 class="text-xl">Timeintervals4j</h3>                    
+                        <p class="text-zinc-600 text-xs">24 July 2013</p>
                         
-                        <li><a href="projects/timeintervals4j.html">Timeintervals4j</a></li>        
+                        <img class="py-4" src="about/jbake_logo.png"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.</p>
+                        </a>                                        
+                    </div>
+
+                
+            
                     
+                    <div class="py-4">
+                        <a href='projects/quarkus-cqrs-es.html'>
+                        <h3 class="text-xl">Quarkus CQRS and Event Store</h3>                    
+                        <p class="text-zinc-600 text-xs">24 July 2013</p>
+                        
+                        <img class="py-4" src="about/jbake_logo.png"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.</p>
+                        </a>                                        
+                    </div>
+
                 
+            
                     
+                    <div class="py-4">
+                        <a href='projects/pg-unit-tests.html'>
+                        <h3 class="text-xl">PostgresSQL Unit Tests - PGSQL Library</h3>                    
+                        <p class="text-zinc-600 text-xs">24 July 2013</p>
+                        
+                        <img class="py-4" src="about/jbake_logo.png"/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.</p>
+                        </a>                                        
+                    </div>
+
                 
+            
                 
-            </ul>
-
-            <!-- <th:block th:with="total_posts = *{#lists.size(published_posts)}">
-                <th:block th:if="*{total_posts != 0}" th:with="first_post = *{posts[0]}">
-                    <h3 th:text="*{#dates.format(first_post.date,'MMMM yyyy')}">June 2014</h3>
-
-                    <h4>
-                        <span class="font-weight-bold" th:text="*{#dates.format(first_post.date,'dd')}" /> -
-                        <a th:href="*{content.rootpath + first_post.uri}" th:text="*{first_post.title}" href="">Post Title</a>
-                    </h4>
-
-                    <th:block th:if="*{total_posts &gt; 1}" th:each="i : *{#numbers.sequence( 1, total_posts - 1)}">
-                        <th:block th:with="previous_post = *{posts[i - 1]}, current_post = *{posts[i]}">
-                            <th:block th:if="*{#dates.format(previous_post.date,'MMMM yyyy')} != *{#dates.format(current_post.date,'MMMM yyyy')}">
-                                <p></p>
-                                <h3 th:text="*{#dates.format(current_post.date,'MMMM yyyy')}">July 2014</h3>
-                            </th:block>
-
-                            <h4>
-                                <span class="font-weight-bold" th:text="*{#dates.format(current_post.date,'dd')}" /> -
-                                <a th:href="*{content.rootpath + current_post.uri}" th:text="*{current_post.title}" href="">Post Title</a>
-                            </h4>
-                        </th:block>
-                    </th:block>
-                </th:block>
-            </th:block> -->
-
+            
+            
         </div>
     </div>
 

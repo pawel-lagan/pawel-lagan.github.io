@@ -3,6 +3,8 @@ date=2013-08-25
 type=post
 tags=blog
 status=published
+short_img=about/jbake_logo.png
+short=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.
 ~~~~~~
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.
