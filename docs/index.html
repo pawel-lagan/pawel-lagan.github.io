@@ -32,7 +32,7 @@
     </div>
 
     <div id="logo" class="grid-rows-3 grid-flow-col place-content-center">
-  <div id="row-1" class="py-10">
+  <div id="row-1" class="py-10 hidden md:block">
     <div class="software-arch flex gap-2">
       <div class="flex-1"></div>
       <svg
@@ -72,8 +72,8 @@
   </div>
   <div id="row-2"> 
     <div class="logo flex gap-24">
-      <div class="flex-1"></div>
-      <svg
+      <div class="flex-1 hidden md:block"></div>
+      <svg class="hidden md:block"
         width="123.7718"
         height="171.91113"
         viewBox="0 0 32.747955 45.48482"
@@ -231,7 +231,7 @@
            r="5.4263096" /></g></svg>
           blog</h3>
         </div>
-        <div class="clean-code flex gap-2">
+        <div class="clean-code gap-2 hidden md:flex">
           <svg
    width="12.588989"
    height="134.57445"
@@ -261,7 +261,7 @@
         <div class="flex-1"></div>
     </div>
 
-    <div class="java flex gap-2 py-10">
+    <div class="java gap-2 py-10 hidden md:flex">
       <div class="flex-1"></div>
       <div class="w-20"></div>
       <svg
@@ -313,7 +313,7 @@
 
 
   </div>
-  <div id="row-3">
+  <div id="row-3" class="hidden md:block">
     <div class="cloud flex gap-2 -translate-y-20">
       <div class="flex-1"></div>
       <svg
@@ -355,7 +355,7 @@
             
 
             <h2>Recent articles</h2>
-            <div class="grid grid-rows-1 grid-flow-col gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
 
                 
                     <div class="py-4">
@@ -391,6 +391,18 @@
                         
                             <img class="py-4" src="about/jbake_logo.png"/>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus.</p>
+                        </a>
+                    </div>
+                
+                    <div class="py-4">
+
+                        <a href='blog/2013/first-post.html'>
+                            <h3 class="text-xl">First Post</h3>
+                            <p class="text-zinc-600 text-xs">24 July 2013</p>
+                        
+                        
+                            
+                            <p></p>
                         </a>
                     </div>
                 

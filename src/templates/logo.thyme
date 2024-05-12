@@ -1,5 +1,5 @@
 <div id="logo" class="grid-rows-3 grid-flow-col place-content-center">
-  <div id="row-1" class="py-10">
+  <div id="row-1" class="py-10 hidden md:block">
     <div class="software-arch flex gap-2">
       <div class="flex-1"></div>
       <svg
@@ -39,8 +39,8 @@
   </div>
   <div id="row-2"> 
     <div class="logo flex gap-24">
-      <div class="flex-1"></div>
-      <svg
+      <div class="flex-1 hidden md:block"></div>
+      <svg class="hidden md:block"
         width="123.7718"
         height="171.91113"
         viewBox="0 0 32.747955 45.48482"
@@ -198,7 +198,7 @@
            r="5.4263096" /></g></svg>
           blog</h3>
         </div>
-        <div class="clean-code flex gap-2">
+        <div class="clean-code gap-2 hidden md:flex">
           <svg
    width="12.588989"
    height="134.57445"
@@ -228,7 +228,7 @@
         <div class="flex-1"></div>
     </div>
 
-    <div class="java flex gap-2 py-10">
+    <div class="java gap-2 py-10 hidden md:flex">
       <div class="flex-1"></div>
       <div class="w-20"></div>
       <svg
@@ -280,7 +280,7 @@
 
 
   </div>
-  <div id="row-3">
+  <div id="row-3" class="hidden md:block">
     <div class="cloud flex gap-2 -translate-y-20">
       <div class="flex-1"></div>
       <svg
